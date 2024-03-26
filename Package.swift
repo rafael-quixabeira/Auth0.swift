@@ -11,7 +11,7 @@ let package = Package(
     products: [.library(name: "Auth0", targets: ["Auth0"])],
     dependencies: [
         .package(url: "https://github.com/auth0/JWTDecode.swift.git", .upToNextMajor(from: "3.1.0")),
-        .package(url: "https://github.com/senstream/SimpleKeychain", .upToNextMajor(from: "1.1.1")),
+        .package(url: "https://github.com/rafael-quixabeira/SimpleKeychain"),
     ],
     targets: [
         .target(
